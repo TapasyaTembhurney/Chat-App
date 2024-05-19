@@ -1,21 +1,22 @@
 .detail {
-    flex: 1;
+    flex:0.8;
 
     .user {
         padding: 30px 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 240px;
-        gap: 20px;
+        height: 200px;
+        gap: 10px;
         border-bottom: 1px solid #dddddd35;
+        margin-bottom: -10px;
 
-        p{
+        p {
             text-align: center;
         }
 
-        img{
-            width: 80px; 
+        img {
+            width: 80px;
             height: 80px;
             border-radius: 50%;
             object-fit: cover;
@@ -23,22 +24,22 @@
     }
 
     .info {
-        padding: 20px;
+        padding: 15px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 25px;
 
-        .option{
-            .title{
+        .option {
+            .title {
                 display: flex;
                 align-items: center;
-                margin-top: -8px;
+                margin-top: 3px;
                 justify-content: space-between;
 
-                img{
+                img {
                     width: 30px;
                     height: 30px;
-                    background-color: rgba(17,25,40,0.3);
+                    background-color: rgba(17, 25, 40, 0.3);
                     padding: 10px;
                     border-radius: 50%;
                     cursor: pointer;
@@ -56,51 +57,60 @@
                     align-items: center;
                     justify-content: space-between;
 
-                    .photodetail{
+                    .photodetail {
                         display: flex;
-                        align-items: center;                        
+                        align-items: center;
                         gap: 20px;
 
-                    img {
-                        height: 30px;
+                        img {
+                            height: 30px;
+                            width: 30px;
+                            border-radius: 5px;
+                            object-fit: cover;
+                        }
+
+                        span {
+                            font-size: 14px;
+                            color: lightgray;
+                            font-weight: 300;
+                        }
+
+                    }
+
+                    .icon {
                         width: 30px;
-                        border-radius: 5px;
-                        object-fit: cover;
-                    } 
-
-                    span{
-                        font-size: 14px;
-                        color: lightgray;
-                        font-weight: 300;
+                        height: 30px;
+                        background-color: rgba(17, 25, 40, 0.3);
+                        padding: 10px;
+                        border-radius: 50px;
+                        cursor: pointer;
                     }
-
-                    }
-                   .icon{
-                    width: 30px;
-                    height: 30px;
-                    background-color: rgba(17,25,40,0.3);
-                    padding: 10px;
-                    border-radius: 50px;
-                    cursor: pointer;
-                   }
                 }
-               
+
             }
         }
-        
-        button{
-            background-color: rgba(225, 37, 74, 0.854);
-            padding: 5px 20px;
-            margin-top: -9px;
+
+        button {
+            background-color: red;
+            padding: 10px;
+            margin-top: -12px;
             border: none;
             color: white;
             border-radius: 5px;
             cursor: pointer;
 
 
-            &.hover{
-                background-color: rgba(192, 13, 49, 0.796);
+            &:hover {
+                background-color:rgb(220, 20, 60);
             }
-                }
+
+            &.logout {
+                padding: 10px;
+                background-color: #1171ef;
+            }
+            &.logout:hover{
+                background-color:#003d8d ;
             }
         }
+    }
+}

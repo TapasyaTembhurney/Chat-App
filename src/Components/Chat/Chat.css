@@ -13,6 +13,7 @@
         align-items: center;
         justify-content: space-between;
         border-bottom: 1px solid rgb(151, 139, 139);
+       height: 95px;
 
         .user{
             display: flex;
@@ -71,7 +72,7 @@
 
                 .text{
                     p{
-                        background-color: #5784f8;
+                        background-color: #386df2;
                     }
                 }
             }
@@ -102,7 +103,7 @@
                 }
 
                 span{
-                    font-size: 14px;
+                    font-size: 12px;
                 }
             }
         }
@@ -150,12 +151,13 @@
             }
 
             .sendButton{
-                background-color: #4f7df1;
+                background-color: #376bf1;
                 color: white;
                 padding: 10px 20px;
                 border: none;
                 border-radius: 5px;
                 font-size:15px;
+                font-weight: 600;
                 cursor: pointer;
             }
     }
