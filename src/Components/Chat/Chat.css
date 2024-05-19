@@ -62,7 +62,7 @@
                 display: flex;
                 gap: 20px;
             }
-            
+
             img{
                 width: 20px;
                 cursor: pointer;
@@ -78,6 +78,15 @@
                 padding: 10px;
                 border-radius: 10px;
                 font-size: 16px;
+            }
+            .emoji{
+                position: relative;
+            }
+             
+            .picker{
+                position: absolute;
+                bottom: -180px;
+                left: 20px;
             }
 
             .sendButton{
