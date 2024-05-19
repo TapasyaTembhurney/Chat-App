@@ -3,7 +3,7 @@
         display: flex;
         align-items: center;
         gap: 20px;
-        padding: 20px;
+        padding: 10px;
         
         
         .searchBar{
@@ -22,8 +22,8 @@
                 flex: 1;
             }
             img{
-                width: 35px;
-                height: 35px;
+                width: 30px;
+                height: 30px;
             }
         }
         .add{
@@ -40,9 +40,9 @@
         display: flex;
         align-items: center;
         gap: 20px;
-        padding: 20px;
+        padding: 15px;
         cursor: pointer;
-        border-bottom: 1.5px solid rgb(151, 139, 139);
+        border-bottom: 1px solid rgb(151, 139, 139);
 
         img{
             width: 50px;

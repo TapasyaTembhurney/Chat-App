@@ -7,9 +7,56 @@ const Detail = () => {
                 <img src="./avatar.png" alt="" />
                 <h2>Jane Doe</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
+            </div>
             <div className="info">
-                
+                <div className="option">
+                    <div className="title">
+                        <span>Chat Settings</span>
+                        <img src="./arrowDown.png" alt="" />
+                    </div>
+                </div>
+                <div className="option">
+                    <div className="title">
+                        <span>Privacy & help</span>
+                        <img src="./arrowDown.png" alt="" />
+                    </div>
+                </div>
+                <div className="option">
+                    <div className="title">
+                        <span>Shared Photos</span>
+                        <img src="./arrowDown.png" alt="" />
+                    </div>
+                    <div className="photos">
+                        <div className="photoitem">
+                            <div className="photodetail">
+                                <img src="./horse.jpg" alt="" />
+                                <span>photo_2024_2.png</span>
+                            </div>
+                            <img src="./download.png" alt="" className='icon' />
+                        </div>
+                        <div className="photoitem">
+                            <div className="photodetail">
+                                <img src="./horse.jpg" alt="" />
+                                <span>photo_2024_2.png</span>
+                            </div>
+                            <img src="./download.png" alt=""  className='icon'/>
+                        </div>
+                        <div className="photoitem">
+                            <div className="photodetail">
+                                <img src="./horse.jpg" alt="" />
+                                <span>photo_2024_2.png</span>
+                            </div>
+                            <img src="./download.png" alt="" className='icon'/>
+                        </div>
+                    </div>
+                </div>
+                <div className="option">
+                    <div className="title">
+                        <span>Shared Files</span>
+                        <img src="./arrowUp.png" alt="" />
+                    </div>
+                </div>
+                <button>Block User</button>
             </div>
         </div>
     )
